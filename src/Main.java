@@ -23,7 +23,7 @@ public class Main {
       for (int i = 0; i < matr.length; i++) {
       //    System.out.println(" stroka" + i +" imeet dliny "+ matr[i].length+"\n");
           for (int j = 0; j < matr[i].length; j++) {
-              System.out.printf("%4d", matr[i][j]);
+              System.out.printf("%4d", matr[i][j]); //printFFFFF(!!!)
           }
           System.out.println("\n");
       }
